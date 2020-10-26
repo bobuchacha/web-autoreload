@@ -1,0 +1,26 @@
+{
+  "name": "web-autoreload",
+  "version": "1.0.0",
+  "description": "A mini webserver that auto reloads whenever main server changed",
+  "main": "serve.js",
+  "scripts": {
+    "test": "npm run test",
+    "serve": "node serve.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobuchacha/web-autoreload.git"
+  },
+  "author": "Thang Cao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobuchacha/web-autoreload/issues"
+  },
+  "homepage": "https://github.com/bobuchacha/web-autoreload#readme",
+  "dependencies": {
+    "chokidar": "^3.4.3",
+    "node-static": "^0.7.11",
+    "url": "^0.11.0",
+    "ws": "^7.3.1"
+  }
+}
