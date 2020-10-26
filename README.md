@@ -3,6 +3,8 @@ I used this to evelop my web app with live reload whenever it \
 detects any changes to html folder. So you can make it useful \
 for developing your own apps.\
 \
-how to use?
-run npm install
+how to use?\
+```
+npm install
 npm run serve
+```
